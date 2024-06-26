@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+.Con {
+    background-color: rgb(209, 226, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50% ;
+    height: 70%;
+    border: 0.1px solid #ccc;
+    border-radius: 10px;
+    border-color: rgb(71, 143, 165);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(209, 226, 240);
+
+
+}
+
+.form-group input {
+    border-radius: 10px;
+}
+
+.form-group label {
+    background-color: rgb(209, 226, 240);
+}
+
+.Con h3 {
+    background-color: rgb(209, 226, 240);
+    color: rgb(5, 99, 102);
+}
+
+.Con button{
+    border-radius: 8px;
+    cursor: pointer;
+} 
+
+#resultados {
+    background-color: rgb(209, 226, 240);
+}
+
+p {
+    background-color: rgb(209, 226, 240);
+    color: rgb(5, 99, 102);
+}
+
